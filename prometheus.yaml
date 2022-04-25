@@ -1,0 +1,2 @@
+# selects all http_requests_total time series for staging, testing, 
+# and development environments and HTTP methods other than GET.

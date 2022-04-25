@@ -1,0 +1,14 @@
+# fill in the ports to select deployed nginx
+# fill in the selector section to select deployed nginx
+
+---
+apiVersion: v1
+kind: Service
+metadata:  
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  # ports:
+  # selector:
+  type: LoadBalancer
